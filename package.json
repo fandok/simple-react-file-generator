@@ -1,0 +1,21 @@
+{
+  "name": "simple-react-file-generator",
+  "version": "1.0.0",
+  "description": "opinionated code generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate:code:loadable": "hygen generator react-with-loadable --filename",
+    "generate:code": "hygen generator react-without-loadable --filename"
+  },
+  "keywords": [
+    "reactjs",
+    "code-generator",
+    "hygen"
+  ],
+  "author": "Fandika Okdiba",
+  "license": "ISC",
+  "devDependencies": {
+    "hygen": "^6.1.0"
+  }
+}
