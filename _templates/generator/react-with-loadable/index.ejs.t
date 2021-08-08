@@ -1,5 +1,5 @@
 ---
-to: <%= h.changeCase.pascalCase(filename) %>/index.js
+to: pages/<%= h.changeCase.pascalCase(filename) %>/index.js
 ---
 import loadable from '@loadable/component';
 
