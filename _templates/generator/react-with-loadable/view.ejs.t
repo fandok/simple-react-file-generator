@@ -1,5 +1,5 @@
 ---
-to: <%= h.changeCase.pascalCase(filename) %>/view.js
+to: pages/<%= h.changeCase.pascalCase(filename) %>/view.js
 ---
 import React from 'react';
 
